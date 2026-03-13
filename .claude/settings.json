@@ -1,0 +1,31 @@
+{
+  "marketplaces": [
+    {
+      "id": "financial-services-plugins",
+      "source": "anthropics/financial-services-plugins"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "financial-analysis",
+      "marketplace": "financial-services-plugins",
+      "core": true
+    },
+    {
+      "name": "investment-banking",
+      "marketplace": "financial-services-plugins"
+    },
+    {
+      "name": "equity-research",
+      "marketplace": "financial-services-plugins"
+    },
+    {
+      "name": "private-equity",
+      "marketplace": "financial-services-plugins"
+    },
+    {
+      "name": "wealth-management",
+      "marketplace": "financial-services-plugins"
+    }
+  ]
+}
